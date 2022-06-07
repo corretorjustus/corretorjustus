@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simulador de Financiamento Corretor Justus</title>
+    <link href="simuladordefinanciamento.css" rel="stylesheet">
+</head>
+
+<h1 style="background-color: grey; max-height: 150px; max-width: 260px;">
+    <img src="logotipo corretorjustus.png" alt="logotipo">
+</h1>
+
+<p1></p1>
+
+<ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="regiões.html">REGIÕES</a></li>
+    <li><a href="simuladordefinanciamento.html">SIMULADOR DE FINANCIAMENTO</a></li>
+    <li><a href="about.asp">SOBRE</a></li>
+    <li><a href="contact.asp">CONTATO</a></li>
+
+</ul>
+
+<h2>Os melhores empreendimentos nas melhores regiões.</h2>
+<hr>
+<h3>Simulador de Financiamento</h3>
+<hr>
+
+
+<div class="mortgage-calculator js-mortgage-calculator">
+     <div class="mortgage-calculator__container js-mortgage-calculator-container">
+        <div class="mortgage-calculator__inputs-container js-inputs">
+            <div>
+                <div class="mortgage-calculator__inputs">
+                    <div class="mortgage-calculator__input mortgage-calculator__input--w1">
+                        <span class="mortgage-calculator__input-title">VALOR DO IMÓVEL</span>
+                        <label class="mortgage-calculator__input-label">Preço de venda do imóvel</label>
+                        <input class="mortgage-calculator__input-field js-total-price js-currency" type="tel"
+                            value="R$ 100.000">
+                        <div class="js-total-price-error-message">
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <div class="mortgage-calculator__input mortgage-calculator__input--w2">
+                        <span class="mortgage-calculator__input-title">ENTRADA</span>
+                        <label class="mortgage-calculator__input-label">Valor a ser pago à vista</label>
+                        <input class="mortgage-calculator__input-field js-downpayment js-currency" type="tel"
+                            value="R$ 25.000">
+                        <div class="js-downpayment-error-message">
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <div class="mortgage-calculator__input mortgage-calculator__input--w3">
+                        <span class="mortgage-calculator__input-title">PRAZO</span>
+                        <label class="mortgage-calculator__input-label">Em anos</label>
+                        <input class="mortgage-calculator__input-field js-loan-term" type="number" value="35" min="1"
+                            max="35">
+                        <div class="js-loan-term-error-message">
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="mortgage-calculator__input mortgage-calculator__input--w4 js-mortgage-calculator-button">
+                        <div><span class="mortgage-calculator__input-title">VALOR A SER FINANCIADO</span>
+                            <label class="mortgage-calculator__input-label">Simule o financiamento do imóvel</label>
+                            <button class="mortgage-calculator__input-button js-simulate-btn"
+                                type="button">CALCULAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mortgage-calculator__results-container js-results">
+            <div></div>
+        </div>
+        <div class="js-santander-container">
+            <div>
+                <div class="mortgage-santander__container js-container">
+                    <h5 class="mortgage-santander__logo">Santander</h5>
+                    <p class="mortgage-santander__title">
+                        Contrate seu crédito com <strong>uma das menores taxas do mercado</strong>
+                    </p>
+
+                    <button class="mortgage-santander__cta js-cta">
+                        Financiar com o Santander
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="mortgage-calculator__disclaimer">
+        As taxas, cálculos e resultados apresentados possuem caráter meramente informativo,
+        usam o sistema de amortização constante e podem não refletir as condições de financiamento deste imóvel.
+    </p>
+</div>
+
+</body>
+
+</html>

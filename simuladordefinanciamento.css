@@ -1,0 +1,789 @@
+body {
+    background: url(sp.jpg) center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: auto;
+    background-size: cover;
+}
+
+h1 {
+    border-radius: 10px;
+}
+
+p1 {
+    font-family: sans-serif;
+    color: white;
+    font-size: x-large;
+    margin-left: 30px;
+}
+
+ul {
+    font-family: sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-right: 2px solid #bbb;
+    font-size: x-large;
+    background-color: grey(68, 68, 68);
+}
+
+ul li {
+    display: inline;
+    color: white;
+    padding: 14px 16px;
+    border-right: 1px solid #bbb;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    color: grey;
+}
+
+.column {
+    float: center;
+    height: 70%;
+    width: 70%;
+    max-width: 380px;
+    max-height: 200px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.row:after {
+    clear: both;
+    display: flex;
+}
+
+
+img {
+    top: 10px;
+}
+
+h3 {
+    line-height: 10%;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: auto;
+}
+
+
+h2 {
+    color: white;
+    text-align: center;
+    background-color: grey;
+    background-position: auto;
+    border-radius: 12px;
+    font-size: 300%;
+}
+
+
+    {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    max-width: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.polaroid:hover {
+    transform: scale(1.1);
+}
+
+.polaroid {
+    background-color: rgba(10, 23, 55, 0.5);
+    padding: 15px 15px 30px;
+}
+
+.photo {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: x-large;
+    color: white;
+}
+
+
+.footer {
+    margin-top: 200px;
+    width: 100% 10%;
+    padding: 10px 15%;
+    background: #333;
+    color: #efefef;
+    display: grid;
+}
+
+.footer div {
+    text-align: center;
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.footer div h3 {
+    font-weight: 300;
+    font-size: x-large;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a {
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    margin-bottom: 10px;
+}
+
+
+.float {
+    right: 25px;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    text-align: center;
+    z-index: 100;
+}
+
+
+
+@-webkit-keyframes spinning {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes spinning {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.mortgage-santander__container {
+    grid-column-gap: 44px;
+    align-items: center;
+    border-top: 1px solid #d8d8d8;
+    display: none;
+    grid-template-columns: 162px 1fr 250px;
+    margin: 12px auto 0;
+    max-width: 848px;
+    padding-top: 32px;
+}
+
+.mortgage-santander__container[data-open] {
+    display: grid;
+}
+
+.mortgage-santander__logo {
+    background: url(https://cdn1.vivareal.com/p/1-c32a8a3/v/static/app/svg/styleguide/logo/santander.svg) no-repeat 50%;
+    background-size: initial;
+    display: inline-block;
+    height: 29px;
+    overflow: hidden;
+    text-indent: 100vw;
+    white-space: nowrap;
+    width: 162px;
+}
+
+.mortgage-santander__title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.mortgage-santander__cta {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #1190cd;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 16px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.mortgage-santander__cta:focus {
+    outline: 0
+}
+
+.mortgage-santander__cta[disabled] {
+    cursor: not-allowed;
+    opacity: .5
+}
+
+.mortgage-santander__cta:not([disabled]):hover {
+    background: #249ad1
+}
+
+.mortgage-santander__cta:active {
+    background: #0b7eb6
+}
+
+.mortgage-calculator {
+    margin: 0 0 44px
+}
+
+.mortgage-calculator__title {
+    font-size: 20px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 28px;
+    line-height: 36px;
+    text-align: center
+}
+
+.mortgage-calculator__title:after {
+    background-color: #1190cd;
+    border-radius: 4px;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 50%;
+    margin: 12px auto 32px;
+    margin: 24px auto 16px;
+    width: 32px;
+}
+
+.mortgage-calculator__container {
+    background-color: grey;
+    margin: 10px 0 8px;
+    padding: 24px 0;
+}
+
+.mortgage-calculator__subheader {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.mortgage-calculator__disclaimer {
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+}
+
+@media screen and (min-width:720px) {
+    .mortgage-calculator__disclaimer {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media screen and (min-width:1050px) {
+    .mortgage-calculator__disclaimer {
+        box-sizing: content-box;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1024px
+    }
+}
+
+.mortgage-calculator__inputs {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.mortgage-calculator__input {
+    margin: 24px 0;
+}
+
+.mortgage-calculator__input-title {
+    color: white;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 24px;
+}
+
+.mortgage-calculator__input-label {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.mortgage-calculator__input .invalid-message {
+    color: #e64a45;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    min-height: 24px;
+    padding-top: 8px;
+}
+
+.mortgage-calculator__input-field {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, .12);
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .54);
+    font-size: 16px;
+    height: 44px;
+    margin: 16px 0 0;
+    max-width: 100%;
+    outline: none;
+    padding: 12px 16px;
+    width: 100%
+}
+
+.mortgage-calculator__input-field::-moz-placeholder {
+    font-weight: 400
+}
+
+.mortgage-calculator__input-field::placeholder {
+    font-weight: 400
+}
+
+.mortgage-calculator__input-field:not(:disabled):active,
+.mortgage-calculator__input-field:not(:disabled):focus {
+    border-color: #1190cd;
+    box-shadow: inset 0 0 0 1px #1190cd;
+    color: rgba(0, 0, 0, .87)
+}
+
+.mortgage-calculator__input-field:invalid {
+    box-shadow: none
+}
+
+.mortgage-calculator__input-field:disabled {
+    background: rgba(0, 0, 0, .12);
+    color: rgba(0, 0, 0, .38)
+}
+
+.mortgage-calculator__input-field[aria-invalid],
+.mortgage-calculator__input-field[aria-invalid]:active,
+.mortgage-calculator__input-field[aria-invalid]:focus {
+    border-color: #e64a45;
+    box-shadow: inset 0 0 0 1px #e64a45
+}
+
+.mortgage-calculator__input-field.invalid {
+    border-color: #e64a45
+}
+
+.mortgage-calculator__input-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #1190cd;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    line-height: 48px;
+    margin-top: 12px;
+    padding: 0 16px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 100%
+}
+
+.mortgage-calculator__input-button:focus {
+    outline: 0
+}
+
+.mortgage-calculator__input-button[disabled] {
+    cursor: not-allowed;
+    opacity: .5
+}
+
+.mortgage-calculator__input-button:not([disabled]):hover {
+    background: #249ad1
+}
+
+.mortgage-calculator__input-button:active {
+    background: #0b7eb6
+}
+
+.mortgage-calculator__outstanding {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 44px;
+    margin: 16px 0
+}
+
+.mortgage-calculator .annual-interest-rate {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 4px 0
+}
+
+.mortgage-calculator__installment {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 4px 0
+}
+
+.mortgage-calculator .hr {
+    background-color: #d8d8d8;
+    display: block;
+    height: 1px;
+    margin: 32px 0
+}
+
+@media screen and (max-width:719px) {
+    .mortgage-santander__container {
+        margin-left: 12px;
+        margin-right: 12px;
+        padding: 24px 0 32px;
+        text-align: center
+    }
+
+    .mortgage-santander__container[data-open] {
+        display: block
+    }
+
+    .mortgage-santander__title {
+        margin: 24px auto
+    }
+}
+
+@media screen and (min-width:720px) {
+    .mortgage-calculator__container {
+        padding: 32px 0
+    }
+
+    .mortgage-calculator__inputs {
+        display: flex;
+        justify-content: center;
+        margin: 0
+    }
+
+    .mortgage-calculator__input {
+        margin: 32px 32px 32px 0
+    }
+
+    .mortgage-calculator__input--w1 {
+        width: 176px
+    }
+
+    .mortgage-calculator__input--w2 {
+        width: 144px
+    }
+
+    .mortgage-calculator__input--w3 {
+        width: 124px
+    }
+
+    .mortgage-calculator__input--w4 {
+        margin-right: 0;
+        width: 214px
+    }
+
+    .mortgage-calculator__outstanding {
+        margin-top: 16px
+    }
+
+    .mortgage-calculator .hr {
+        display: none
+    }
+}
+
+@media screen and (min-width:1050px) {
+    .mortgage-calculator__input {
+        margin-right: 44px
+    }
+
+    .mortgage-calculator__input--w4 {
+        width: 244px
+    }
+}
+
+.site-footer {
+    background: #0a5a80;
+    color: hsla(0, 0%, 100%, .5);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 21px;
+    position: relative;
+    text-align: center;
+    z-index: 6
+}
+
+.site-footer a {
+    color: #fff;
+    text-decoration: none
+}
+
+.site-footer__section--publisher-and-social {
+    margin-bottom: 8px
+}
+
+.site-footer .section__title {
+    display: block;
+    margin: 16px 0 4px
+}
+
+.site-footer__section--pages .section__title {
+    margin-top: 0
+}
+
+.site-footer__container {
+    padding: 16px 0
+}
+
+.site-footer__about {
+    background: rgba(0, 0, 0, .12)
+}
+
+.site-footer .about__terms-policy {
+    grid-gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 12px 0 84px
+}
+
+.site-footer .terms-policy__item a {
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+.site-footer__brand {
+    background: url(https://cdn1.vivareal.com/p/1-c32a8a3/v/static/app/svg/styleguide/logo/olxbr-branco.svg) no-repeat bottom;
+    background-size: initial;
+    background-size: 150px;
+    color: hsla(0, 0%, 100%, .001);
+    display: inline-block;
+    height: 47px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    text-indent: 100vw;
+    white-space: nowrap;
+    width: 150px
+}
+
+.site-footer__brand:before {
+    color: #fff;
+    content: "Uma empresa";
+    display: block;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    text-indent: 0
+}
+
+.site-footer__social .social__item {
+    display: inline-block
+}
+
+.site-footer__social .social__item a {
+    display: block;
+    height: 36px;
+    overflow: hidden;
+    text-indent: 100vw;
+    white-space: nowrap;
+    width: 36px
+}
+
+.site-footer__social .social__item+.social__item {
+    margin-left: 8px
+}
+
+.site-footer__social .social__item--facebook {
+    background: url(https://cdn1.vivareal.com/p/1-c32a8a3/v/static/app/img/fb.png) no-repeat 50%;
+    background-size: initial
+}
+
+.site-footer__social .social__item--twitter {
+    background: url(https://cdn1.vivareal.com/p/1-c32a8a3/v/static/app/img/tw.png) no-repeat 50%;
+    background-size: initial
+}
+
+.site-footer__social .social__item--youtube {
+    background: url(https://cdn1.vivareal.com/p/1-c32a8a3/v/static/app/img/yt.png) no-repeat 50%;
+    background-size: initial
+}
+
+.site-footer__social .social__item--instagram {
+    background: url(https://cdn1.vivareal.com/p/1-c32a8a3/v/static/app/img/ig.png) no-repeat 50%;
+    background-size: initial
+}
+
+.site-footer__mobile .mobile__item {
+    display: inline-block;
+    margin-right: 8px
+}
+
+.site-footer__mobile .mobile__item a,
+.site-footer__mobile .mobile__item button.site-header__login--mobile {
+    display: block;
+    height: 56px;
+    overflow: hidden;
+    text-indent: 100vw;
+    white-space: nowrap;
+    width: 122px
+}
+
+.site-footer__mobile .mobile__item:last-child {
+    margin-right: 0
+}
+
+.site-footer__mobile .mobile__item--playstore {
+    background: url(https://cdn1.vivareal.com/p/1-c32a8a3/v/static/app/img/pt-br-play-badge.png) no-repeat 50%;
+    background-size: initial
+}
+
+.site-footer__mobile .mobile__item--applestore {
+    background: url(https://cdn1.vivareal.com/p/1-c32a8a3/v/static/app/img/pt-br-app-store-badge.png) no-repeat 50%;
+    background-size: initial
+}
+
+@media screen and (min-width:1050px) {
+    .site-footer {
+        text-align: left
+    }
+
+    .site-footer__section--institutional,
+    .site-footer__section--other-products,
+    .site-footer__section--pages,
+    .site-footer__section--publisher-and-social {
+        border-right: 1px solid rgba(0, 0, 0, .12);
+        margin-right: 2%;
+        width: 23%
+    }
+
+    .site-footer__section--publisher-and-social {
+        border: 0;
+        margin: 0
+    }
+
+    .site-footer__container {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 0
+    }
+
+    .site-footer__brand {
+        margin: 0;
+        width: 160px
+    }
+
+    .site-footer__brand:before {
+        text-align: left
+    }
+
+    .site-footer__menu {
+        margin-top: 16px
+    }
+
+    .site-footer__social {
+        margin-bottom: 8px
+    }
+
+    .site-footer__about .site-footer__container {
+        align-items: center
+    }
+
+    .site-footer .terms-policy__item {
+        margin-left: 16px
+    }
+
+    .site-footer .section__title {
+        margin: 0
+    }
+
+    .site-footer .menu__item {
+        margin-bottom: 24px
+    }
+
+    .site-footer .about__terms-policy {
+        grid-gap: 0;
+        grid-template-columns: repeat(4, auto);
+        padding: 0
+    }
+
+    .site-footer .about__legal {
+        flex-grow: 2;
+        margin-left: 32px
+    }
+}
+
+.site-footer .site-footer__container {
+    padding-left: 16px;
+    padding-right: 16px
+}
+
+@media screen and (min-width:720px) {
+    .site-footer .site-footer__container {
+        padding-left: 48px;
+        padding-right: 48px
+    }
+}
+
+@media screen and (min-width:1050px) {
+    .site-footer .site-footer__container {
+        box-sizing: content-box;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1344px
+    }
+}
